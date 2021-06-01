@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>폼 테스트</title>
+  </head>
+  <body>
+    <h1>주문하기</h1>
+    <form action="#" method="GET">
+      <fieldset>
+        <legend>상품 선택</legend>
+        <p><label for="nametxt">이 름 </label> <input id="nametxt" autofocus required placeholder="이름을 입력하세요" /></p>
+        <p><label for="">아이디 </label> <input name="id" value="userid" readonly/></p>
+      </fieldset>
+      <fieldset>
+        <legend>배송 정보</legend>
+        <input type="text" name="text" /><br />
+        <input type="password" name="password" /><br />
+        <input type="email" name="email" /><br />
+        <input type="date" name="date" /><br />
+        <input type="color" name="color" />
+      </fieldset>
+      <fieldset>
+        <legend>상품 선택</legend>
+        <p><b>주문할 상품을 선택해 주세요</b></p>
+        <label><input type="checkbox" name="ck" value="s3" checked /> 선물용 3kg</label>
+        <label><input type="checkbox" name="ck" value="s5" /> 선물용 5kg</label>
+        <label><input type="checkbox" name="ck" value="f3" /> 가정용 3kg</label>
+        <label><input type="checkbox" name="ck" value="f5" /> 가정용 3kg</label>
+      </fieldset>
+      <fieldset>
+        <legend>포장 선택</legend>
+        <label><input type="radio" name="gift" value="yes" checked/> 포장</label>
+        <label><input type="radio" name="gift" value="no" /> 포장 안 함</label><br>
+        <label>메모</label><br>
+        <textarea name="memo" cols="50" rows="5"></textarea><br>
+        <input type="number" min="0" max="100" step="5" value="5"><br>
+        <input type="range" min="0" max="5"><br>
+        <input type="file" name="file"><br>
+
+        <select name="url" size="2" multiple>
+          <option value="www.naver.com">네이버</option>
+          <option value="www.google.com">구글</option>
+        </select>
+
+      </fieldset>
+      <input type="submit" />
+      <input type="image" src="img/img01.jpg" width="100px"><br>
+
+      <input type="button" value="공지 창 열기" onclick="window.open('order.html')">
+    </form>
+  </body>
+</html>
