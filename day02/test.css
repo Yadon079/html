@@ -1,0 +1,11 @@
+h1 {
+  padding: 10px;
+  background-color: #b76e79;
+  color: #ffdddd;
+  border: 10px solid #b7b7b7;
+}
+
+p {
+  text-align: right;
+  color: deepskyblue;
+}
