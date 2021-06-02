@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
 
 * {
   margin: 50px;
@@ -16,7 +17,11 @@ p {
 }
 
 h1, p {
-  font-family: "mesloLGS NF";
+  font-family: "mesloLGS NF", 'Nanum Pen Script', cursive;
+}
+
+div > span {
+  color: aquamarine;
 }
 
 /* id */
