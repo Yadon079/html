@@ -1,3 +1,8 @@
+
+* {
+  margin: 50px;
+}
+
 h1 {
   padding: 10px;
   background-color: #b76e79;
@@ -9,3 +14,29 @@ p {
   text-align: right;
   color: deepskyblue;
 }
+
+h1, p {
+  font-family: "mesloLGS NF";
+}
+
+/* id */
+#container {
+  width: 500px;
+  margin: 10px auto;
+  padding: 10px;
+  border: 1px solid #b76e79;
+}
+
+/* class */
+.italic {
+  text-align: left;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.bg-gray {
+  background-color: gray;
+  color: white;
+  padding: 5px;
+}
+
