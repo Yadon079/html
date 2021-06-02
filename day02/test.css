@@ -1,8 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
 
+@font-face {
+  font-family: "D2Coding";
+  src: url("D2Coding.woff2") format("woff2"),
+    url("D2Coding.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 * {
   margin: 50px;
 }
+
+/* body {
+  background: url(img/img04.jpg);
+} */
 
 h1 {
   padding: 10px;
@@ -17,7 +30,7 @@ p {
 }
 
 h1, p {
-  font-family: "mesloLGS NF", 'Nanum Pen Script', cursive;
+  font-family: "D2Coding";
 }
 
 div > span {
@@ -45,3 +58,10 @@ div > span {
   padding: 5px;
 }
 
+.color1 {
+  color: rgb(255, 255, 255);
+}
+
+.color2 {
+  color: rgba(255, 255, 255, 0.5);
+}

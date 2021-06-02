@@ -1,0 +1,41 @@
+.shadow1 {
+  color: red;
+  text-shadow: 2px 2px black;
+}
+
+.shadow2 {
+  text-shadow: 5px 5px 3px #ffa500;
+}
+
+.shadow3 {
+  color: #fff;
+  text-shadow: 7px -7px 20px #000;
+}
+
+.spa1 {
+  letter-spacing: 0.2em;
+}
+
+.spa2 {
+  letter-spacing: 0.5em;
+}
+
+.spa3 {
+  word-spacing: 0.5em;
+}
+
+.list1 {
+  list-style-type: square;
+}
+
+.list2 {
+  list-style-image: url(./img/icon.png);
+}
+
+.inside {
+  list-style-position: inside;
+}
+
+.all {
+  list-style: url(./img/icon.png) inside;
+}
