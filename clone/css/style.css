@@ -1,0 +1,22 @@
+.nav {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.navbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  width: 100%;
+}
+
+.top {
+  padding-top: 146px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 40;
+}
