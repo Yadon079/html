@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <style>
+      .container {
+        width:600px;
+        margin:50px auto;
+        background-color: darkgray;
+        display: flex;
+      }
+
+      #box {
+        width: 100px;
+        height: 100px;        
+				margin:50px auto;
+        background-color: lightcoral;
+        transition-property: all;
+        transition-duration: 2s, 1s;
+      }
+
+      
+      #box1 {
+        width: 100px;
+        height: 100px;        
+				margin:50px auto;
+        background-color: lightcoral;
+        transition: 5s linear;
+      }
+
+      #box2 {
+        width: 100px;
+        height: 100px;        
+				margin:50px auto;
+        background-color: lightcoral;
+        transition: 5s ease;
+
+      }
+      
+      #box3 {
+        width: 100px;
+        height: 100px;        
+				margin:50px auto;
+        background-color: lightcoral;
+        transition: 5s ease-in;
+      }
+
+      #box:hover, #box1:hover, #box2:hover, #box3:hover {
+        height: 500px;
+        background-color: white;
+      }
+    </style>
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="box1"></div>
+      <div id="box2"></div>
+      <div id="box3"></div>
+    </div>
+  </body>
+</html>
