@@ -1,22 +1,39 @@
-.nav {
-  padding-left: 80px;
-  padding-right: 80px;
-}
-
-.navbar {
-  position: relative;
+#top-bar {
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  width: 100%;
-}
-
-.top {
-  padding-top: 146px;
   padding-left: 80px;
   padding-right: 80px;
-  padding-bottom: 40;
+}
+
+#nav-menu {
+  display: inline-block;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#mark {
+  margin: 20 auto;
+  padding: 20px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  text-align: center;
+}
+
+#nav-menu ul li {
+  display: inline-block;
+  margin: 20 auto;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#nav-user ul li {
+  display: inline-block;
+  margin: 20 auto;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
 }
